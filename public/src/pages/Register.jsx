@@ -24,6 +24,12 @@ const toastOptions = {
   draggable: true,
   theme : "dark"
 }
+useEffect(() => {
+  if(localStorage.getItem("chat-app-user")){
+    navigate('/');
+  }
+}, [])
+
 
 const handleSubmit = async (event) =>{
   event.preventDefault();
@@ -125,13 +131,12 @@ const FormContainer = styled.div`
   .brand{
     display:flex;
     flex-direction: rows;
-    gap: 1rem;
+    gap: 0.3rem;
     align-items: center;
     justify-content: center;
+  }
      img{
      height: 5rem;
-     filter: 
-     }
      h1{
     text-transform: uppercase;
      }
@@ -180,4 +185,4 @@ const FormContainer = styled.div`
    }
 
 `;
-export default Register
+export default Register;
