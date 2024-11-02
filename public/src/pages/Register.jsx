@@ -106,7 +106,7 @@ const handleValidation = () => {
         <input type="text" name = "username" placeholder='Username' onChange={(e) => handleChange(e)}/>
         <input type="email"  name = "email" placeholder='email' onChange={(e) => handleChange(e)}/>
         <input type="password"  name = "password" placeholder='password' onChange={(e) => handleChange(e)}/>
-        <input type="password"  name = "confirmPassword" placeholder='confirm Password' onChange={(e) => handleChange(e)}/>
+        <input type="password"  name = "confirmPassword" placeholder='confirm password' onChange={(e) => handleChange(e)}/>
         <button type='submit'>Create</button>
 
         <span>Already have an accout ? <Link to="/login">Login</Link> </span>
@@ -134,13 +134,12 @@ const FormContainer = styled.div`
     gap: 0.3rem;
     align-items: center;
     justify-content: center;
-  }
-     img{
+    img{
      height: 5rem;
-     h1{
-    text-transform: uppercase;
      }
-   }
+  }
+     
+   
    form{
     display: flex;
     flex-direction: column;

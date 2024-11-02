@@ -118,13 +118,11 @@ const FormContainer = styled.div`
     gap: 0.3rem;
     align-items: center;
     justify-content: center;
-  }
-     img{
+    img{
      height: 5rem;
-     h1{
-    text-transform: uppercase;
-     }
    }
+  }
+   
    form{
     display: flex;
     flex-direction: column;
