@@ -77,12 +77,12 @@ color: white;
     justify-content: center;
     gap: 0.5rem;
     img{
-      height: 2rem;
+      height: 3rem;
     }
     h3{
-      color: white;
-     
+      font-size : 1.5rem;
     }
+   
   }
 
   .contacts {
@@ -90,6 +90,7 @@ color: white;
     flex-direction: column;
     align-items: center;
     overflow: auto;
+    gap: 1rem;
     &::-webkit-scrollbar{
       width: 0.2rem;
       &-thumb{
