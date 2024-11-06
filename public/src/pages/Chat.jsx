@@ -71,7 +71,7 @@ const handleChatChange = (chat) =>{
 
               ) : (
                 
-                <ChatContainer currentChat = {currentChat} />
+                <ChatContainer currentChat = {currentChat}  currentUser = {currentUser} />
               )
             }
             
