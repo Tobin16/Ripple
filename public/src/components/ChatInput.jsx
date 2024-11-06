@@ -53,7 +53,7 @@ const sendChat = (event)=>{
 }
 
 const Container = styled.div`
-height: 80%;
+height: 100%;
 
 display: grid;
 grid-template-columns: 5% 95% ;

@@ -1,6 +1,8 @@
 const User = require('../models/userModel')
 const Messages = require('../models/messageModel');
+
 module.exports.addMessage = async (req,res,next) =>{
+
   try {
     const {from , to , message} = req.body
 
