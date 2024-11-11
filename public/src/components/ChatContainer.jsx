@@ -127,6 +127,7 @@ const Container = styled.div`
   @media screen and (min-width: 720px) and (max-width: 1080px) {
     grid-auto-rows: 15% 70% 15%;
   }
+ 
   .chat-header {
     display: flex;
     justify-content: space-between;
@@ -156,6 +157,7 @@ const Container = styled.div`
   flex-direction: column;
   gap: 1rem;
   overflow: auto;
+ 
   &::-webkit-scrollbar{
     width: 0.2rem;
     /* background-color: #2c1654; */
@@ -171,6 +173,11 @@ const Container = styled.div`
     align-items: center;
     .content{
       max-width: 40%;
+      @media screen and (min-width: 375px) and (max-width: 700px) {
+      max-width: 65%;
+      font-size: 0.8rem;
+      padding: 0.8rem;
+  }
       overflow-wrap: break-word;
       padding: 1rem;
       font-size: 1.1rem;

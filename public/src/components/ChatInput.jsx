@@ -61,6 +61,12 @@ align-items: center;
 padding: 0.2rem;
 padding-bottom: 0.3rem;
 background-color: #21214f;
+@media screen and (min-width: 375px) and (max-width: 700px) {
+   
+
+    display: grid;
+    grid-template-columns: 20% 80%;
+  }
 
 .button-container{
     display: flex;
@@ -71,6 +77,10 @@ background-color: #21214f;
         position: relative;
         left: 0.8rem;
         top: 0.2rem;
+        @media screen and (min-width: 375px) and (max-width: 700px) {
+      padding-left: 0px;
+            
+  }
       
         svg{
             font-size:1.5rem;
@@ -80,8 +90,6 @@ background-color: #21214f;
         position: absolute;
         top: -470px;
         
-        
-                 
         }
       }
     }
